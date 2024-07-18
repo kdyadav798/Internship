@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0c0303;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-top: 50px;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.task-input {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.task-input input, .task-input select, .task-input button {
+    padding: 10px;
+    margin: 0 5px;
+    flex: 1;
+}
+
+.task-input button {
+    flex: 0 0 100px;
+}
+
+.tasks-container {
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #000000;
+}
+
+th, td {
+    padding: 20px;
+    text-align: left;
+}
+
+th {
+    background-color: #f4f4f4;
+}
+
+button {
+    cursor: pointer;
+}
+
+
+.status-completed {
+    color: green;
+}
+
+.status-in-progress {
+    color: orange;
+}
+
+.status-not-started {
+    color: red;
+}
